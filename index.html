@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS only -->
+	>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- font -->
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<title>Registration Form</title>
+</head>
+<body>
+	<h3></h3>
+<div class="container">
+    <h2>Form</h2>
+	<form action="https://www.indianembassybaku.gov.in/trade_register_inter.php" method="POST">
+		<table>
+			<tr>
+				<td class="first">
+					<label for="country">Country<em>*</em></label>
+				</td>
+				<td class="second">
+					<select name="country" id="country">
+						<option value="India">India</option>
+						<option value="Azerbaijan">Azerbaijan</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="company">Name of Company<em>*</em></label>
+				</td>
+				<td class="second"> 
+					<input type="text" name="company" id="company" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="ABN">ABN/ACN<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="ABN" id="ABN" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Address">Address<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Address" id="Address" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="City">City<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="City" id="City" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first"> 
+					<label for="State">State<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="State" id="State" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="PostCode">PostCode<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="PostCode" id="PostCode" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Email">Email<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="Email" name="Email" id="Email" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Tel">Tel<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Tel" id="Tel" required>
+				</td>
+				
+			</tr>
+
+			<tr>
+				<td class="first">
+					<label for="Fax">Fax<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Fax" id="Fax" required>
+				</td>
+				
+			</tr>
+
+			<tr>
+				<td class="first">
+					<label for="Contact_Person">Contact Person<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Contact Person" id="Contact Person" required>
+				</td>
+				
+			</tr>
+
+			<tr>
+				<td class="first">
+					<label for="Job_Title">Job Title<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Job Title" id="Job Title" required>
+				</td>
+				
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Turnover">Turnover (per year)<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Turnover (per year)" id="Turnover (per year)" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Imports">Imports (per year)<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Imports (per year)" id="Imports (per year)" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Product">Application/Use of product<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Application/Use of product" id="Application/Use of product" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Activity">Your Areas of Activity (please tick appropriate)</label>
+				</td>
+				<td class="second">
+					<table>
+						<tr>
+							<td>
+								<input class="checkbox" type="checkbox" name="Producer" id="Producer" value="Producer">
+								<span class="checkbox">Producer ?</span>
+							</td>
+							<td>
+								<input class="checkbox" type="checkbox" name="Services" id="Services" value="Services">
+								<span class="checkbox">Services ?</span><br>
+							</td>
+						</tr>
+						<tr>
+							<td><input class="checkbox" type="checkbox" name="Manufacturer" id="Manufacturer" value="Manufacturer">
+					<span class="checkbox">Manufacturer ?</span></td>
+							<td><input class="checkbox" type="checkbox" name="Agent" id="Agent" value="Agent">
+					<span class="checkbox">Agent ?</span><br></td>
+						</tr>
+						<tr>
+							<td>
+								<input class="checkbox" type="checkbox" name="Exporter" id="Exporter" value="Exporter">
+					<span class="checkbox">Exporter ?</span>
+							</td>
+							<td>
+								<input class="checkbox" type="checkbox" name="Trading House" id="Trading_House" value="Trading_House">
+					<span class="checkbox">Trading House ?</span><br>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input class="checkbox" type="checkbox" name="Merchant importer" id="Merchant_importer" value="Merchant_importer">
+								<span class="checkbox">Merchant importer ?</span>
+							</td>
+							<td>
+								<input class="checkbox" type="checkbox" name="Importer" id="Importer" value="Importer">
+					<span class="checkbox">Importer ?</span><br>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input class="checkbox" type="checkbox" name="Representative" id="Representative" value="Representative">
+					<span class="checkbox">Representative ?</span>
+							</td>
+							<td>
+								<input class="checkbox" type="checkbox" name="Services" id="Services" value="Services">
+					<span class="checkbox">Services ?</span>
+							</td>
+						</tr>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+
+					</table>
+
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="industries">Type of industries you want to target<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Type of industries you want to target" id="industries" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="information">Any additional information<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Any additional information" id="information" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Product">Product<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Product" id="Product" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="code">HS Code<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="HS Code" id="code" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="present">Countries exporting to at present<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Countries exporting to at present" id="present" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label for="Verification">Verification Code<em>*</em></label>
+				</td>
+				<td class="second">
+					<input type="text" name="Verification Code" id="Verification" required>
+					<a class="captcha">5432</a>
+
+				</td>
+			</tr>
+			<tr>
+				<td class="first"></td>
+				<td class="second"><p>*fields are required</p></td>
+			</tr>
+			<tr>
+				<td class="first">
+					<label ></label>
+				</td>
+				<td class="second">
+					<input type="submit" name="Countries exporting to at present" id="btn"  placeholder="submit" required>
+
+				</td>
+			</tr>
+
+
+
+
+		</table>
+	</form>
+	
+</div>
+</body>
+</html>

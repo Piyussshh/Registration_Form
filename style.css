@@ -1,0 +1,88 @@
+body	
+{
+	font-family: 'Open Sans', sans-serif;
+}
+.container	
+{
+	width: 70%;
+	margin:0 auto;
+	
+    
+}
+
+form	
+{
+	border:10px solid rgba(0,0,0,0.2);
+	width: fit-content;
+	padding-left: 1.8rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+table 
+{
+	color:rgba(0,0,0,0.7);
+}
+input
+{
+	border:1px solid rgba(0,0,0,0.2);
+	height: 25px;
+}
+#country
+{   border:1px solid rgba(0,0,0,0.2);
+	height: 25px;
+	padding: 5px;
+	width: 40%;
+	color: rgba(0,0,0,0.7);
+	font-size: 11px;
+
+}
+.first
+{
+	width: 38%;
+}
+.second
+{
+	width: 62%;
+	padding: 8px 10px;
+}
+.second p
+{
+	color: red;
+	margin-top: 20px;
+}
+input[type="text"]
+{
+	max-width: 400px;
+	width: 100%;
+}
+input[type="email"]
+{
+	max-width: 400px;
+	width: 100%;
+}
+ .checkbox
+{
+	
+	height: 13px;
+
+}
+#btn
+{
+	color: rgba(0,0,0,0.6);
+	font-size: .8rem;
+}
+#Verification
+{
+
+  width: 20%;
+}
+.captcha
+{
+	font-size: 12px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 4px;
+}
+
+
+
+
